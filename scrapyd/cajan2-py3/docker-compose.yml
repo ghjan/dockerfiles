@@ -1,0 +1,7 @@
+scrapyd:
+  image: cajan2/scrapyd:py3
+  ports:
+    - "6800:6800"
+  volumes:
+    - ./data:/var/lib/scrapyd
+  restart: always
