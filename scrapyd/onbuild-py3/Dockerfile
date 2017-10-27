@@ -2,7 +2,7 @@
 # Dockerfile for scrapyd-onbuild
 #
 
-FROM vimagick/scrapyd:py3
+FROM cajan2/scrapyd:py3
 MAINTAINER david <davidzhang330@gmail.com>
 
 ONBUILD ADD ./*.txt /etc/scrapyd/
